@@ -1,0 +1,32 @@
+<div class="container w-60">
+
+
+    <h2>
+        <div class="cen">{{actionEvent}} Client</div>
+    </h2>
+
+
+    <div class="groupe">
+        <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+            <div class="form-group ">
+                <label for="code">Code : {{client.code}}</label>
+                <input type="hidden" class="form-control" id="code" [(ngModel)]="client.code" name="code">
+            </div>
+            <div class="form-group">
+                <label for="nom">Nom:</label>
+                <input type="text" class="form-control" id="nom" [(ngModel)]="client.nom" name="nom">
+            </div>
+            <div class=" form-group">
+                <label for="prenom">Prénom:</label>
+                <input type="text" class="form-control" id="prenom" [(ngModel)]="client.prenom" name="prenom">
+            </div>
+            <div class="form-group">
+                <label for="adresse">Adresse:</label>
+                <input type="text" class="form-control" id="adresse" [(ngModel)]="client.adresse" name="adresse">
+            </div>
+            <button type="submit" class="btn btn-success">{{actionEvent}}</button>
+        </form>
+
+
+    </div>
+</div>

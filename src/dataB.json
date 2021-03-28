@@ -1,0 +1,29 @@
+{
+    "commandes": [
+
+        {
+            "code": 1,
+            "nom": "Ali",
+            "prenom": "hassan",
+            "adresse": "ay salam"
+        },
+        {
+            "code": 1,
+            "nom": "Ali",
+            "prenom": "hassan",
+            "adresse": "ay salam"
+        },
+        {
+            "code": 1,
+            "nom": "Ali",
+            "prenom": "hassan",
+            "adresse": "ay salam"
+        },
+        {
+            "code": 1,
+            "nom": "Ali",
+            "prenom": "hassan",
+            "adresse": "ay salam"
+        }
+    ]
+}
